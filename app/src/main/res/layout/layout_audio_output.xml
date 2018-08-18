@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_btn_bluetooth"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginEnd="@dimen/padding_16dp"
+        android:layout_marginStart="@dimen/padding_16dp"
+        android:backgroundTint="@android:color/white"
+        android:drawablePadding="@dimen/padding_32dp"
+        android:drawableStart="@drawable/ic_bluetooth_audio_black_24dp"
+        android:drawableTint="@color/black54"
+        android:gravity="start|center_vertical"
+        android:text="@string/audio_output_option_bluetooth"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/tv_btn_earphone"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginEnd="@dimen/padding_16dp"
+        android:layout_marginStart="@dimen/padding_16dp"
+        android:backgroundTint="@android:color/white"
+        android:drawablePadding="@dimen/padding_32dp"
+        android:drawableStart="@drawable/ic_phone_black_24dp"
+        android:drawableTint="@color/black54"
+        android:gravity="start|center_vertical"
+        android:text="@string/audio_output_option_earphone"
+        android:textSize="16sp" />
+
+
+    <TextView
+        android:id="@+id/tv_btn_speaker"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginEnd="@dimen/padding_16dp"
+        android:layout_marginStart="@dimen/padding_16dp"
+        android:backgroundTint="@android:color/white"
+        android:drawablePadding="@dimen/padding_32dp"
+        android:drawableStart="@drawable/ic_volume_up_black_24dp"
+        android:drawableTint="@color/black54"
+        android:gravity="start|center_vertical"
+        android:text="@string/audio_output_option_speaker"
+        android:textSize="16sp" />
+
+</LinearLayout>
